@@ -1,0 +1,258 @@
+.map {
+
+  position: relative;
+  left: 500px;
+
+}
+
+.countries {
+  	stroke: #000;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+a {
+  color: #fff;
+  font-size: 15px;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 20px;
+  right: 150px;
+}
+
+
+h5 {
+  color: #fff;
+  font-size: 25px;
+  font-family: sans-serif;
+  position: relative;
+  left: 150px;
+  top: 0px;
+}
+
+
+h4 {
+  color: #fff;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+  left: 1000px;
+}
+
+/*h1 {
+  color: #fff;
+  font-size: 15px;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 20px;
+  right: 150px;
+}*/
+img {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  right: 60px;
+  bottom: 30px;
+}
+.div h3 {
+fill: #f000;
+}
+.legend {
+  border-style: solid;
+  border-color: #fff;
+}
+#accordion{
+  max-width: 400px;
+
+  /*fill: #000;
+
+  overflow:hidden;
+      box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+      border-radius:3px;
+      background:#f7f7f7;*/
+}
+#definition {
+  color: #fff;
+}
+.gratBackground {
+    /*fill: #D5E3FF;*/
+    fill: #000;
+
+}
+
+.gratLines {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+}
+
+/*.dropdown {
+    position: absolute;
+    top: 10px;
+    right: 370px;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}*/
+
+option {
+    font-weight: normal;
+}
+
+.pcplot  {
+
+  margin-top: 0px;
+  position: relative;
+  left: 500px;
+  /*transform: rotate(90deg);*/
+
+
+}
+.pcpBackground {
+  fill: #000;
+  opacity: 1;
+  stroke: #000;
+  stroke-width: 4px;
+
+}
+
+.pcpLines path {
+  fill: none;
+  stroke-width: 1px;
+
+
+}
+.axis {
+  stroke: #fff;
+  fill: #fff;
+}
+.axis path {
+  fill: none;
+  stroke: #fff;
+  fill: #fff;
+  stroke-opacity: 1;
+  stroke-linecap: round;
+}
+
+.infolabel {
+  position: absolute;
+  height: 90px;
+  min-width: 100px;
+  color: #fff;
+  background-color: #000;
+  border: solid thin #fff;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.infolabel h1 {
+  margin: 0 20px 0 0;
+  padding: 0;
+  display: inline-block;
+  line-height: 1em;
+  font-family: sans-serif;
+}
+
+.definitionlabel{
+  position: absolute;
+  top: 100px;
+  right: 400px;
+  height: 100px;
+  max-width: 500px;
+  color: #fff;
+  background-color: #000;
+  border: solid thin #fff;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.labelname {
+  line-height: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #000;
+  border: solid thin #fff;
+}
+.pcpTitle {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    fill: #fff;
+}
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 100; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #000; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    border-right: solid;
+    border-color: #fff;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s
+    right: 0;
+}
+#definition{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
